@@ -18,8 +18,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var switchOutlet: UISwitch!
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.white
         onOutlet.tintColor = UIColor.white
         offOutlet.tintColor = UIColor.black
+        labelOutlet.text = "ON"
+        labelOutlet.textColor = UIColor.black
         // Do any additional setup after loading the view.
     }
     
